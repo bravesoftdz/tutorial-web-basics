@@ -1,0 +1,4 @@
+title: JavaScript ES6
+
+Irgendwann ist aufgefallen, dass herkömmliche Objektstrukturen doch praktisch wären, da Umfang von JS Projekten zugenommen hat
+Daher gibt es verschiedene Syntaxversionen, mit EC5 und 6 (2015 und 2016) sind viele Dinge hinzugekommen

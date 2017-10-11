@@ -1,0 +1,5 @@
+title: JavaScript Libraries
+
+Jetzt wollen wir vielleicht einen tollen effekt einbinden
+Einfach über script tag einbinden, wie eigene Scripte auch
+Es bieten sich cdns an (für online services) oder npm Projekte(damit auch offline verfügbar)

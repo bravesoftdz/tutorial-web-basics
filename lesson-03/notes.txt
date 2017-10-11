@@ -1,0 +1,6 @@
+Title: Struktur
+1. Den wohl wichtigsten Tag habe ich grade noch nicht gezeigt:
+div -> Container (ähnlich wie Panel in Delphi)
+-> Beispiel google "untersuchen funktion"
+2. Wird für Strukturierung genutzt
+3. Mittlerweile Alternative durch HTML5

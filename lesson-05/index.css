@@ -1,0 +1,32 @@
+/*Fullsize Application*/
+html,
+body,
+.application{
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    /*Gottgleicher Code*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f6f6f6;
+}
+.form-wrapper{
+    width: 400px;
+    min-height: 200px;
+
+    background-color: #fff;
+}   
+
+.form-title{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+
+    font-size: 1.5em;
+    text-align: center;
+}

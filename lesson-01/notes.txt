@@ -1,0 +1,5 @@
+Title: Struktur eines HTML-Dokuments
+1. Ein HTML Dokument ist immer zweigeteilt
+-> head-Bereich für Metainformationen und Links(z.Bsp. andere Ressourcen Dateien)
+-> body-Bereich für den Inhalt
+2. Doctype Befehl ist für den Browser, es funktioniert auch ohne, aber hilft im Notfall mehr als dass es schadet

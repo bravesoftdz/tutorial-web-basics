@@ -1,0 +1,23 @@
+Title: Die wichtigsten Tags
+1. Wir wollen nicht nur normalen Text anzeigen
+2. Überschriften
+Gibt es in allen möglichen Größen
+3. Text Stile
+b für bold und i für italic
+gibt noch weitere, die kleine aber feine unterschiede haben (z.b. strong statt b)
+4. Zeilenumbrüche
+Text ist einfach hintereinander, das wollen wir nicht
+Egal ob mit oder ohne closing tag
+Auch mit Paragraphen möglich
+5. Listen
+Standardmäßig immer mit Aufzählungspunkten
+6. Hyperlinks
+Hier haben wir ein gutes Beispoiel für attribute
+Hovertext ist title
+7. Bilder
+Attribute hier alt (mit falschem src zeigen)
+Egal ob Gif oder nicht
+
+
+Gibt natürlich noch viel mehr: Tabellen etc.
+Jetzt könnt ihr die Hälfte wieder vergessen: Später macht man das meiste über css
