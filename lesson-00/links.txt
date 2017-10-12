@@ -9,3 +9,18 @@ http://html5doctor.com/i-b-em-strong-element/
 Lesson 03:
 https://dev.opera.com/articles/new-structural-elements-in-html5/
 http://learn.shayhowe.com/assets/images/courses/html-css/getting-to-know-html/building-structure.png
+
+Lesson 04:
+
+Lesson 05:
+
+Lesson 06:
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/
+
+Lesson 07:
+
+Lesson 08:
+
+Lesson 09:
+
+Lesson 10:

@@ -1,7 +1,4 @@
 class Person{
-    foreName = "Vorname";
-    sureName = "Nachname";
-
     constructor( _ForeName , _SureName ){
         this.foreName = _ForeName;
         this.sureName = _SureName;
@@ -29,7 +26,6 @@ class Entwickler extends Person{
         return true;
     }
 }
-
 
 
 // Runtime

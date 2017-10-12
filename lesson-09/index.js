@@ -8,22 +8,37 @@ function Person( _ForeName , _SureName ){
     this.sayHello = function(){
         return "Halo i bims 1 " + this.name() ;
     }
-    this.hasSpecialSkills = function(){
-        return false;
-    }
 }
 
-Entwickler.prototype = Object.create(Person.prototype);
+// Testen
+var HMe = new Person("Finn","Zentgraf");
+console.log(HMe.sayHello());
 
+// Person.hasSpecialSkills wäre Objektbezogen
+Person.prototype.hasSpecialSkills = function(){
+    return false;
+}
+alert(HMe.hasSpecialSkills());
+
+// Ableiten
 function Entwickler( _ForeName , _SureName ){
-    Person.call(_ForeName , _SureName);
-    this.hasSpecialSkills = function(){
-        return true ;
-    }
+    Person.call(this, _ForeName , _SureName);
 }
-var HMe = new Entwickler("Finn","Zentgraf");
+
+// Eigenschaften verfügbar machen
+Entwickler.prototype = Object.create(Person.prototype);
+// Stay safe
+Entwickler.prototype.constructor = Entwickler;
+
+// Ableiten
+Entwickler.prototype.hasSpecialSkills = function(){
+    return true;
+};
+
+// Test
+HMe = new Entwickler("Finn","Zentgraf");
 
 // Achtung: ohne klammern kommt immer true zurück, da property gesetzt
 if(HMe.hasSpecialSkills()){
-    console.log(HMe.sayHello);
+    console.log(HMe.sayHello());
 }
