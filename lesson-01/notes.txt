@@ -1,4 +1,7 @@
 Title: Struktur eines HTML-Dokuments
+
+- Unterschied zwischen Tags, elementen, attributen
+
 1. Ein HTML Dokument ist immer zweigeteilt
 -> head-Bereich für Metainformationen und Links(z.Bsp. andere Ressourcen Dateien)
 -> body-Bereich für den Inhalt

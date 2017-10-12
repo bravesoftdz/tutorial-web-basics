@@ -1,1 +1,3 @@
 title: JavaScript: Datentypen
+
+-> Wir haben eben gesehne: Es gibt keine Datentypen, was können wir nun also benutzen?

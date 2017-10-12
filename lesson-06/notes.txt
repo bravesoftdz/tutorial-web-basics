@@ -1,1 +1,9 @@
 title: Java Script Einstieg
+
+- Jetzt soll natürlich auch was passieren bei Button Click
+- alert und console sind praktisch
+- JavaScript kann in header oder in body eingebaunden werden(performance)
+- OnClick Function
+
+
+- man sieht: keine Datentypen
