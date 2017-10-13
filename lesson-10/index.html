@@ -9,20 +9,17 @@
 </head>
 
 <body>
-    <div class="application">
-        <header>
-            <ul id="id-header-list" class="header-list" >
-                <li class="ion-social-twitch-outline"></li>
-                <li class="ion-social-snapchat-outline"></li>
-            </ul>
-        </header>
-
-        <div class="content">
-            <div class="card ion-social-twitch-outline" style="color: #6441a5">
-
-            </div>
-        </div>
+    <div id="id-application" class="application">
+        <ul>
+            <li class="ion-social-twitch-outline" onclick="SetColor('#6441a5','Twitch')"></li>
+            <li class="ion-social-snapchat-outline" onclick="SetColor('#fffc00','Snapchat')"></li>
+            <li class="ion-social-facebook-outline" onclick="SetColor('3b5998','Facebook')"></li>
+            <li class="ion-social-twitter-outline" onclick="SetColor('#1da1f2','Twitter')"></li>
+        </ul>
+        <div id="id-brand-name" class="brand-name"></div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>
